@@ -2,7 +2,7 @@ import pytplot
 from pyspedas import sosmag_load
 
 trange = ['2023-02-23 00:00:00', '2023-02-23 23:59:00']
-file_name = 'testSOSMAG_20230223_' 
+file_name = 'SOSMAG_20230223_' 
 save_to_dir = '/path/to/data/directory'
 
 # tplot_ascii() taken from pytplot;
