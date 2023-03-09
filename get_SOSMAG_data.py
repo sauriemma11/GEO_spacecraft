@@ -8,7 +8,7 @@ start_date = datetime.strptime(start_date_str, '%Y-%m-%d %H:%M:%S')
 end_date = datetime.strptime(end_date_str, '%Y-%m-%d %H:%M:%S')
 delta = timedelta(days=1)
 
-save_to_dir = 'C:/Users/Sarah/PycharmProjects/pythonProject1/sosmag_data/'
+save_to_dir = 'path/to/directory'
 
 def tplot_ascii(tvar, filename=None, extension='.csv'):
     # tplot_ascii() taken from pytplot;
